@@ -6,5 +6,7 @@ fun main(args: Array<String>) {
     println("Program arguments: ${args.joinToString()}")
     //CountingElves().sumOffFirstAndLastNumbers()
     //BagWithColors().minimumsForAllGamesMultiplied()
-    Gondola().gearsCount()
+    //Gondola().gearsCount()
+    Scratchcards().totalPointsOnCards()
+    Scratchcards().totalPointsOnCardsWithCopies()
 }
