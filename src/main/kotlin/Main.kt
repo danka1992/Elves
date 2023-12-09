@@ -7,6 +7,9 @@ fun main(args: Array<String>) {
     //CountingElves().sumOffFirstAndLastNumbers()
     //BagWithColors().minimumsForAllGamesMultiplied()
     //Gondola().gearsCount()
-    Scratchcards().totalPointsOnCards()
-    Scratchcards().totalPointsOnCardsWithCopies()
+    //Scratchcards().totalPointsOnCards()
+    //Scratchcards().totalPointsOnCardsWithCopies()
+    // SeedsLocation.seedsRangesLocationMin()
+    //CamelCards.orderCards()
+    Roads.stepsToReachZZZForGhosts()
 }
