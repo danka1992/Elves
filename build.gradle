@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.21'
+}
+
+group 'org.lormuszova.elves'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+dependencies {
+    implementation "org.jetbrains.kotlinx:multik-core:0.2.2"
+    implementation "org.jetbrains.kotlinx:multik-default:0.2.2"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
+kotlin {
+    jvmToolchain(11)
+}

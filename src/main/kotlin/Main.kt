@@ -11,5 +11,8 @@ fun main(args: Array<String>) {
     //Scratchcards().totalPointsOnCardsWithCopies()
     // SeedsLocation.seedsRangesLocationMin()
     //CamelCards.orderCards()
-    Roads.stepsToReachZZZForGhosts()
+    //Roads.stepsToReachZZZForGhosts()
+    //MirageMaintenance.extrapolateOnTheBeginning()
+    // WaitForIt.secondRaceResult()
+    PipeMaze.maze()
 }
