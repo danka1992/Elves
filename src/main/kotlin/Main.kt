@@ -14,5 +14,6 @@ fun main(args: Array<String>) {
     //Roads.stepsToReachZZZForGhosts()
     //MirageMaintenance.extrapolateOnTheBeginning()
     // WaitForIt.secondRaceResult()
-    PipeMaze.maze()
+    //PipeMaze.maze()
+    CosmicExpansion.shortestPathBetweenGalaxies()
 }
